@@ -36,9 +36,9 @@ public class Solution {
                   return"NO";
                }
            }
-           if(stack.isEmpty())
+           if(!stack.isEmpty())
            {
-               ans=true;
+               ans=false;
            }
            
            
